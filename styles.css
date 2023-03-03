@@ -117,8 +117,8 @@ input:checked + .slider:before {
     background-color: rgb(40, 40, 40);
     height: 34px;
     border-radius: 30px;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    margin-top: 8px;
+    margin-bottom: 8px;
     border-width:3px;
     border-style: inset;
     border-color: rgb(20, 20, 20);
@@ -128,6 +128,7 @@ input:checked + .slider:before {
 
 .bottomdiv{
     margin-bottom: 16px;
+    margin-top: 8px;
 }
 
 .socialmediabutton{
@@ -137,4 +138,13 @@ input:checked + .slider:before {
     height: 32px;
     border-radius: 30px;
     background-color: rgb(20, 20, 20);
+}
+
+.maindiv{
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(40, 40, 40);
 }
